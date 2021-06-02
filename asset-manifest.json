@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/hook-work/static/css/main.d9c0eb67.chunk.css",
+    "main.js": "/hook-work/static/js/main.3181afae.chunk.js",
+    "main.js.map": "/hook-work/static/js/main.3181afae.chunk.js.map",
+    "runtime-main.js": "/hook-work/static/js/runtime-main.a5340d80.js",
+    "runtime-main.js.map": "/hook-work/static/js/runtime-main.a5340d80.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/hook-work/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1bf17fcc.chunk.js": "/hook-work/static/js/2.1bf17fcc.chunk.js",
+    "static/js/2.1bf17fcc.chunk.js.map": "/hook-work/static/js/2.1bf17fcc.chunk.js.map",
+    "static/js/3.94f70d6e.chunk.js": "/hook-work/static/js/3.94f70d6e.chunk.js",
+    "static/js/3.94f70d6e.chunk.js.map": "/hook-work/static/js/3.94f70d6e.chunk.js.map",
+    "index.html": "/hook-work/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/hook-work/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.d9c0eb67.chunk.css.map": "/hook-work/static/css/main.d9c0eb67.chunk.css.map",
+    "static/js/2.1bf17fcc.chunk.js.LICENSE.txt": "/hook-work/static/js/2.1bf17fcc.chunk.js.LICENSE.txt",
+    "static/media/ADIcon.71f913fe.png": "/hook-work/static/media/ADIcon.71f913fe.png",
+    "static/media/LinkedinRound.6892b3ae.png": "/hook-work/static/media/LinkedinRound.6892b3ae.png",
+    "static/media/aboutMe.ccdb25d4.png": "/hook-work/static/media/aboutMe.ccdb25d4.png",
+    "static/media/banner1.e7481f34.png": "/hook-work/static/media/banner1.e7481f34.png",
+    "static/media/handlebars.a0ec0ec8.png": "/hook-work/static/media/handlebars.a0ec0ec8.png",
+    "static/media/logoBP.157eb16a.gif": "/hook-work/static/media/logoBP.157eb16a.gif",
+    "static/media/logoF2F.13a1048e.gif": "/hook-work/static/media/logoF2F.13a1048e.gif",
+    "static/media/logoHK1.139f74d5.gif": "/hook-work/static/media/logoHK1.139f74d5.gif",
+    "static/media/mongoDB.898114ff.png": "/hook-work/static/media/mongoDB.898114ff.png",
+    "static/media/mysql.f0c46c10.png": "/hook-work/static/media/mysql.f0c46c10.png",
+    "static/media/nodejs.8b5dabfa.png": "/hook-work/static/media/nodejs.8b5dabfa.png",
+    "static/media/reactjs.f02dc154.png": "/hook-work/static/media/reactjs.f02dc154.png",
+    "static/media/responsiveApp.e1a52246.png": "/hook-work/static/media/responsiveApp.e1a52246.png",
+    "static/media/workdesk.6a739d07.png": "/hook-work/static/media/workdesk.6a739d07.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5340d80.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1bf17fcc.chunk.js",
+    "static/css/main.d9c0eb67.chunk.css",
+    "static/js/main.3181afae.chunk.js"
+  ]
+}
