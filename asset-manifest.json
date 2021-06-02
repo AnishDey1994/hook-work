@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hook-work/static/css/main.d9c0eb67.chunk.css",
-    "main.js": "/hook-work/static/js/main.3181afae.chunk.js",
-    "main.js.map": "/hook-work/static/js/main.3181afae.chunk.js.map",
-    "runtime-main.js": "/hook-work/static/js/runtime-main.a5340d80.js",
-    "runtime-main.js.map": "/hook-work/static/js/runtime-main.a5340d80.js.map",
+    "main.css": "/hook-work/static/css/main.2357d6f8.chunk.css",
+    "main.js": "/hook-work/static/js/main.263e52d2.chunk.js",
+    "main.js.map": "/hook-work/static/js/main.263e52d2.chunk.js.map",
+    "runtime-main.js": "/hook-work/static/js/runtime-main.0a96aad7.js",
+    "runtime-main.js.map": "/hook-work/static/js/runtime-main.0a96aad7.js.map",
     "static/css/2.1a02f21c.chunk.css": "/hook-work/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.1bf17fcc.chunk.js": "/hook-work/static/js/2.1bf17fcc.chunk.js",
-    "static/js/2.1bf17fcc.chunk.js.map": "/hook-work/static/js/2.1bf17fcc.chunk.js.map",
-    "static/js/3.94f70d6e.chunk.js": "/hook-work/static/js/3.94f70d6e.chunk.js",
-    "static/js/3.94f70d6e.chunk.js.map": "/hook-work/static/js/3.94f70d6e.chunk.js.map",
+    "static/js/2.eeb74269.chunk.js": "/hook-work/static/js/2.eeb74269.chunk.js",
+    "static/js/2.eeb74269.chunk.js.map": "/hook-work/static/js/2.eeb74269.chunk.js.map",
+    "static/js/3.2332eb12.chunk.js": "/hook-work/static/js/3.2332eb12.chunk.js",
+    "static/js/3.2332eb12.chunk.js.map": "/hook-work/static/js/3.2332eb12.chunk.js.map",
     "index.html": "/hook-work/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/hook-work/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.d9c0eb67.chunk.css.map": "/hook-work/static/css/main.d9c0eb67.chunk.css.map",
-    "static/js/2.1bf17fcc.chunk.js.LICENSE.txt": "/hook-work/static/js/2.1bf17fcc.chunk.js.LICENSE.txt",
+    "static/css/main.2357d6f8.chunk.css.map": "/hook-work/static/css/main.2357d6f8.chunk.css.map",
+    "static/js/2.eeb74269.chunk.js.LICENSE.txt": "/hook-work/static/js/2.eeb74269.chunk.js.LICENSE.txt",
     "static/media/ADIcon.71f913fe.png": "/hook-work/static/media/ADIcon.71f913fe.png",
     "static/media/LinkedinRound.6892b3ae.png": "/hook-work/static/media/LinkedinRound.6892b3ae.png",
     "static/media/aboutMe.ccdb25d4.png": "/hook-work/static/media/aboutMe.ccdb25d4.png",
@@ -30,10 +30,10 @@
     "static/media/workdesk.6a739d07.png": "/hook-work/static/media/workdesk.6a739d07.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5340d80.js",
+    "static/js/runtime-main.0a96aad7.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.1bf17fcc.chunk.js",
-    "static/css/main.d9c0eb67.chunk.css",
-    "static/js/main.3181afae.chunk.js"
+    "static/js/2.eeb74269.chunk.js",
+    "static/css/main.2357d6f8.chunk.css",
+    "static/js/main.263e52d2.chunk.js"
   ]
 }
