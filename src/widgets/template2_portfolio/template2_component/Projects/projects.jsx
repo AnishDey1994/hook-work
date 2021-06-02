@@ -5,7 +5,6 @@ import bpIcon from '../../../../Assets/Images/App_img/logoBP.gif';
 import './projects.scss';
 
 const Projects = (props) => {
-    console.log('this.props', props);
     const handleRedirect = (url) => {
         props.history.push(url);
     }

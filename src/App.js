@@ -12,6 +12,7 @@ const configString = data;
 const iconList = configString.iconList;
 
 function App() {
+	sessionStorage.setItem('EnvType', 'local');
 	return (
 		<div className='hook-work-wrapper'>
 			<UXSocialMediaSidebar

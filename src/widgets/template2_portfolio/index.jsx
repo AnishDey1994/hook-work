@@ -13,6 +13,7 @@ import UXButton from '../../components/UX-Button/UXButton';
 
 const Template2_portfolio = (props) => {
     const [toogleShow, toggleHandler] = useState('hide');
+    const [envName, setEnv] = useState('prod');
     const topRef = useRef(null);
     const homeRef = useRef(null);
     const aboutRef = useRef(null);
@@ -21,7 +22,6 @@ const Template2_portfolio = (props) => {
     const contactRef = useRef(null);
 
     const scrollToRef = (currentRef) => {
-        console.log('currentRef', currentRef.current);
         currentRef.current.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
@@ -70,22 +70,22 @@ const Template2_portfolio = (props) => {
             <UXNavBar handleRedirect={(link) => executeScroll(link)} />
             <div className='body_wrapper'>
                 <div className='wrapper_outer c-mt-2 c-mb-2' ref={homeRef}>
-                    <Home {...props}/>
+                    <Home {...props} />
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mt-2 c-mb-2' ref={aboutRef}>
-                    <About {...props}/>
+                    <About {...props} />
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mb-2' ref={skillsRef}>
-                    <TechStack {...props}/>
+                    <TechStack {...props} />
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mb-2' ref={projectRef}>
-                    <Projects {...props}/>
+                    <Projects {...props} />
                 </div>
                 <div className='particle_wrapper'>
-                    <UXParticles {...props}/>
+                    <UXParticles {...props} />
                 </div>
                 <div className='footer_wrapper' ref={contactRef}>
                     <UXFooter handleRedirect={(link) => executeScroll(link)} />
@@ -95,7 +95,7 @@ const Template2_portfolio = (props) => {
                 id='toTopBtn'
                 class={`toTopBtn ${toogleShow}`}
                 onTap={() => executeScroll('top')}
-                value={<FaAngleUp className='btnContentMiddle'/>}
+                value={<FaAngleUp className={envName && envName !== 'local' ? 'btnContentMiddle' : null} />}
             >
             </UXButton>
         </div>
