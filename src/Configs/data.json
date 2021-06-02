@@ -1,0 +1,139 @@
+{
+    "demoValue": {
+        "loginInputArray": [
+            {
+                "name": "User ID",
+                "type": "text",
+                "placeHolder": "Please enter use ID",
+                "validation": {
+                    "schema": [
+                        "required",
+                        "isString"
+                    ]
+                }
+            },
+            {
+                "name": "Password",
+                "type": "password",
+                "placeHolder": "Please enter password",
+                "validation": {
+                    "schema": [
+                        "required",
+                        "isString"
+                    ]
+                }
+            }
+        ],
+        "regInputArray": [
+            {
+                "name": "First Name",
+                "type": "text",
+                "validation": {
+                    "schema": [
+                        "required",
+                        "isString"
+                    ]
+                }
+            },
+            {
+                "name": "Last Name",
+                "type": "text",
+                "validation": {
+                    "schema": [
+                        "required",
+                        "isString"
+                    ]
+                }
+            },
+            {
+                "name": "Email",
+                "type": "email",
+                "validation": {
+                    "schema": [
+                        "required"
+                    ]
+                }
+            },
+            {
+                "name": "Mobile",
+                "type": "number",
+                "validation": {
+                    "schema": [
+                        "required",
+                        "isNumber"
+                    ]
+                }
+            },
+            {
+                "name": "Education",
+                "type": "select",
+                "validation": {
+                    "schema": [
+                        "required"
+                    ]
+                },
+                "optionArray": [
+                    {
+                        "name": "PHD",
+                        "value": "phd"
+                    },
+                    {
+                        "name": "Master degree",
+                        "value": "md"
+                    },
+                    {
+                        "name": "Bachelor Degree",
+                        "value": "bd"
+                    }
+                ]
+            },
+            {
+                "name": "New Password",
+                "type": "password",
+                "validation": {
+                    "schema": [
+                        "required"
+                    ]
+                }
+            }
+        ],
+        "controlArray": [
+            {
+                "name": "Submit",
+                "type": "submit"
+            },
+            {
+                "name": "Cancel",
+                "type": "button"
+            }
+        ],
+        "optionArray": [
+            {
+                "name": "Login Form",
+                "value": "Login"
+            },
+            {
+                "name": "Registration Form",
+                "value": "Registration"
+            }
+        ]
+    },
+    "iconList": [
+        {
+            "icon": "linkdin",
+            "link": "https://www.linkedin.com/in/anish-dey-67a628149/"
+        },
+        {
+            "icon": "github",
+            "link": "https://github.com/AnishDey1994"
+        },
+        {
+            "icon": "instagram",
+            "link": "https://www.instagram.com/__anishdey__/"
+        },
+        {
+            "icon": "whatsapp",
+            "link": "https://wa.me/917980720475"
+        }
+    ]
+}

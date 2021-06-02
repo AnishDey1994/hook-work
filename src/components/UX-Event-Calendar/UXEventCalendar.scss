@@ -1,0 +1,50 @@
+// .calendarBlock{
+//     height: 232px;
+//     min-height: 232px;
+//     box-sizing: border-box;
+//     overflow: hidden;
+// }
+.calendarHeading {
+    margin-bottom: 10px;
+}
+.calendarField {
+    float: left;
+    width: 14%;
+    height: 35px;
+    padding: 4px;
+    text-align: center;
+    cursor: default;
+}
+.calendarField:hover {
+    background-color: rgb(219, 219, 219);
+}
+.innerBlock {
+    margin: 1px;
+}
+
+.prevMonth {
+    color: rgb(177, 177, 177);
+}
+.red {
+    background-color: red;
+}
+.keyDates {
+    background-color: #0076d9;
+    color: white;
+}
+.keyDates.toDay,
+.toDay {
+    background-color: #99bfdf !important;
+}
+.keyDates.toDay:hover {
+    background-color: #0076d9 !important;
+}
+.holiDay {
+    color: red;
+}
+.calendarField.keyDates:hover {
+    background-color: #0076d9 !important;
+}
+.calenderNavigate {
+    cursor: pointer;
+}

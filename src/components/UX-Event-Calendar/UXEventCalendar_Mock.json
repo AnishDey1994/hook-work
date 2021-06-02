@@ -1,0 +1,91 @@
+{
+    "CalendarData": {
+        "days": [
+            "SUN",
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT"
+        ],
+        "months": [
+            {
+                "monthName": "January",
+                "dayCount": 31
+            },
+            {
+                "monthName": "February",
+                "dayCount": 28
+            },
+            {
+                "monthName": "March",
+                "dayCount": 31
+            },
+            {
+                "monthName": "April",
+                "dayCount": 30
+            },
+            {
+                "monthName": "May",
+                "dayCount": 31
+            },
+            {
+                "monthName": "June",
+                "dayCount": 30
+            },
+            {
+                "monthName": "July",
+                "dayCount": 31
+            },
+            {
+                "monthName": "August",
+                "dayCount": 31
+            },
+            {
+                "monthName": "September",
+                "dayCount": 30
+            },
+            {
+                "monthName": "October",
+                "dayCount": 31
+            },
+            {
+                "monthName": "November",
+                "dayCount": 30
+            },
+            {
+                "monthName": "December",
+                "dayCount": 31
+            }
+        ]
+    },
+    "eventData": [
+        {
+            "date": "2021-03-16",
+            "event": [
+                "New Reels video coming"
+            ]
+        },
+        {
+            "date": "2021-04-26",
+            "event": [
+                "Hoiday due to sickness",
+                "Event Calendar dev day"
+            ]
+        },
+        {
+            "date": "2021-04-30",
+            "event": [
+                "Salary Day"
+            ]
+        },
+        {
+            "date": "2021-05-01",
+            "event": [
+                "Shopping day",
+                "End of salary in one day"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+.portfolio_wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.body_wrapper {
+    min-height: 1005px;
+    background-color: white;
+}
+.wrapper_outer {
+    width: 100%;
+    height: auto;
+}
+.topicHeading {
+    color: #ffa46b;
+    border-bottom: 5px solid #ffa46b;
+}
+.hSmall {
+    font-size: 20px;
+}
+.hMid {
+    font-size: 35px;
+}
+.particle_wrapper {
+    width: 100%;
+    background: linear-gradient(135deg, rgb(96, 108, 136) 0%, rgb(63, 76, 107) 100%);
+    height: 400px;
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+    .particle_wrapper {
+        height: 300px;
+    }
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    .particle_wrapper {
+        height: 200px;
+    }
+}

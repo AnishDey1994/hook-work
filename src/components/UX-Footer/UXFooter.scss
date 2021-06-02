@@ -1,0 +1,66 @@
+.footerContainer {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    & a {
+        color: white !important;
+    }
+}
+.footerInner {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+}
+ul li {
+    padding-bottom: 10px;
+}
+h4 {
+    padding-bottom: 10px;
+}
+.subscriptionFormInner {
+    padding: 10px;
+}
+.inputControl {
+    padding-bottom: 5px;
+}
+.subscriptionFormOuter button {
+    width: 100%;
+}
+.pullLeft {
+    text-align: left;
+}
+.bottomSection {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    min-height: 50px;
+}
+.floatLeft {
+    text-align: center;
+}
+.floatLeft li {
+    float: left;
+    margin: 25px;
+    font-size: 20px;
+}
+//media query start
+@media screen and (min-width: 993px) {
+}
+@media screen and (max-width: 992px) {
+    .floatLeft li {
+        margin: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .floatLeft li {
+        margin: 15px;
+        font-size: 20px;
+    }
+}
