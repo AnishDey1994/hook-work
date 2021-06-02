@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import { FaAngleUp } from 'react-icons/fa';
 import UXNavBar from '../../components/UX-NavBar/UXNavBar';
 import UXParticles from '../../components/UX-Particles/UXParticles';
 import Home from './template2_component/Home/home';
@@ -92,9 +93,10 @@ const Template2_portfolio = () => {
             </div>
             <UXButton
                 id='toTopBtn'
-                class={`btn toTopBtn ${toogleShow}`}
-                value='top'
+                class={`toTopBtn ${toogleShow}`}
                 onTap={() => executeScroll('top')}
+                value={<FaAngleUp />}
+            //btnType='toTopBtn'
             >
             </UXButton>
         </div>
