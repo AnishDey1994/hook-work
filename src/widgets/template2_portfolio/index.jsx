@@ -95,7 +95,7 @@ const Template2_portfolio = (props) => {
                 id='toTopBtn'
                 class={`toTopBtn ${toogleShow}`}
                 onTap={() => executeScroll('top')}
-                value={<FaAngleUp />}
+                value={<FaAngleUp className='btnContentMiddle'/>}
             >
             </UXButton>
         </div>
