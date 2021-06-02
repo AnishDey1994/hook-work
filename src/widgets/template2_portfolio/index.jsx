@@ -11,7 +11,7 @@ import './template2_portfolio.scss';
 import UXButton from '../../components/UX-Button/UXButton';
 
 
-const Template2_portfolio = () => {
+const Template2_portfolio = (props) => {
     const [toogleShow, toggleHandler] = useState('hide');
     const topRef = useRef(null);
     const homeRef = useRef(null);
@@ -70,22 +70,22 @@ const Template2_portfolio = () => {
             <UXNavBar handleRedirect={(link) => executeScroll(link)} />
             <div className='body_wrapper'>
                 <div className='wrapper_outer c-mt-2 c-mb-2' ref={homeRef}>
-                    <Home />
+                    <Home {...props}/>
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mt-2 c-mb-2' ref={aboutRef}>
-                    <About />
+                    <About {...props}/>
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mb-2' ref={skillsRef}>
-                    <TechStack />
+                    <TechStack {...props}/>
                 </div>
                 <hr />
                 <div className='wrapper_outer c-mb-2' ref={projectRef}>
-                    <Projects />
+                    <Projects {...props}/>
                 </div>
                 <div className='particle_wrapper'>
-                    <UXParticles />
+                    <UXParticles {...props}/>
                 </div>
                 <div className='footer_wrapper' ref={contactRef}>
                     <UXFooter handleRedirect={(link) => executeScroll(link)} />
@@ -96,7 +96,6 @@ const Template2_portfolio = () => {
                 class={`toTopBtn ${toogleShow}`}
                 onTap={() => executeScroll('top')}
                 value={<FaAngleUp />}
-            //btnType='toTopBtn'
             >
             </UXButton>
         </div>

@@ -16,7 +16,7 @@ const UXNavBar = props => {
         <nav className='uxNavBar'>
             <div className='uxNavLeft'>
                 <a className='uxNavHeader' href='/'>
-                    <img src={appLogo} alt='logo' class='appLogo'></img>
+                    <img src={appLogo} alt='logo' className='appLogo'></img>
                 </a>
             </div>
             <div className='uxNavRight'>

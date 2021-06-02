@@ -24,6 +24,14 @@
             padding: 25px;
             margin-top: 15px;
         }
+        & .projectLink {
+            color: #007bff;
+            background-color: transparent;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 
     //for mobile
@@ -31,7 +39,7 @@
         .project_item {
             flex-direction: column;
         }
-        .project_description{
+        .project_description {
             padding-left: 0 !important;
         }
     }
